@@ -1,0 +1,39 @@
+.home {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.main-title {
+  font-size: 80px;
+  background: linear-gradient(45deg, #ff6b6b, #f5d07f);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  margin-top: 20px;
+  color: #aaa;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.btn {
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.primary {
+  background: #ef4444;
+  color: white;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #f5d07f;
+  color: #f5d07f;
+}

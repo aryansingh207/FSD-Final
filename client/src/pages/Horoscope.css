@@ -1,0 +1,49 @@
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #f5d07f;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #2a2f45;
+  padding: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #1a2035;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.card p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.card.active {
+  border: 1px solid #f5d07f;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #ddd;
+}
